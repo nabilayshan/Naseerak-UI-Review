@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0b1b26">
+  <meta name="color-scheme" content="light dark">
+  <title>نصيرك | Naseerak — متابعة مستجدات قضايا الابتزاز</title>
+  <meta name="description" content="منصة نصيرك لمتابعة مستجدات قضايا الابتزاز بسجل زمني واضح ومصادر المعلومة ودرجة التحقق.">
+  <link rel="canonical" href="https://naseerak.com/">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="نصيرك | Naseerak">
+  <meta property="og:title" content="نصيرك | Naseerak — متابعة مستجدات قضايا الابتزاز">
+  <meta property="og:description" content="منصة نصيرك لمتابعة مستجدات قضايا الابتزاز بسجل زمني واضح ومصادر المعلومة ودرجة التحقق.">
+  <meta property="og:url" content="https://naseerak.com/">
+  <link rel="stylesheet" href="/styles.css?v=20261018-7">
+</head>
+<body>
+  <a class="skip-link" href="#app">تجاوز إلى المحتوى الرئيسي</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <button class="brand" data-nav="home" aria-label="العودة إلى الرئيسية">
+        <span class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M12 2 20 5v6c0 5.2-3.4 9.8-8 11-4.6-1.2-8-5.8-8-11V5l8-3Zm0 4.1L7 8v3c0 3.6 2.1 6.8 5 8 2.9-1.2 5-4.4 5-8V8l-5-1.9Zm-1.1 8.5-2.2-2.2 1.4-1.4 1 1 2.9-3 1.5 1.4-4.6 4.7Z"/></svg>
+        </span>
+        <span class="brand-copy">
+          <span class="brand-title">نصيرك <span class="brand-badge">Naseerak</span></span>
+          <span class="brand-subtitle">متابعة مستجدات قضايا الابتزاز</span>
+        </span>
+      </button>
+
+      <nav class="header-actions" aria-label="وضع العرض والحساب">
+        <div class="mode-switch-wrap">
+          <button class="nav-btn mode-toggle" id="modeToggleBtn" type="button" aria-expanded="false" aria-controls="teamAccessMenu">
+            <span class="mode-toggle-icon" id="modeToggleIcon" aria-hidden="true">◆</span>
+            <span id="modeToggleLabel">دخول الفريق</span>
+          </button>
+
+          <div class="team-access-menu hidden" id="teamAccessMenu">
+            <button type="button" data-nav="login">
+              <strong>دخول أعضاء الفريق</strong>
+              <span>للأدمن والأعضاء المدعوين فقط</span>
+            </button>
+            <button type="button" data-nav="activate">
+              <strong>تفعيل دعوة</strong>
+              <span>استخدم البريد ورمز الدعوة</span>
+            </button>
+          </div>
+        </div>
+
+        <button class="nav-btn subtle" id="themeToggleBtn" type="button" aria-label="تبديل المظهر">☾ الوضع الليلي</button>
+        <button class="nav-btn subtle hidden" id="logoutBtn" type="button">خروج</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="app-shell" aria-live="polite"></main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-shield" aria-hidden="true">ن</span>
+        <div>
+          <strong>نصيرك | Naseerak</strong>
+          <span>متابعة منظمة للمستجدات ومصادرها</span>
+        </div>
+      </div>
+      <p class="footer-disclaimer">إخلاء مسؤولية: تعرض المنصة المستجدات كما ترد من مصادرها، ولا يعني نشر أي قضية تبنّي روايتها أو تأكيد صحتها من المنصة.</p>
+      <nav class="footer-legal" aria-label="السياسات والشروط">
+        <a href="/privacy">الخصوصية</a>
+        <a href="/terms">الاستخدام</a>
+      </nav>
+    </div>
+  </footer>
+
+  <div id="modalRoot"></div>
+  <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+
+  <script src="/app.js?v=20261018-6" defer></script>
+</body>
+</html>
